@@ -1,4 +1,5 @@
 # Unmasking quantum effects in the surface thermodynamics of fluid nanodrops
+Sergio Contreras, Alejandro Martínez-Borquez, Carlos Avendaño, Alejandro Gil-Villegas, and George Jackson
 
 ## ABSTRACT
 The focus of our study is an in-depth investigation of the quantum effects associated with the surface tension and other thermodynamic properties of nanoscopic liquid drops. The behaviour of drops of quantum
