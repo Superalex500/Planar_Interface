@@ -1,9 +1,13 @@
 # Unmasking quantum effects in the surface thermodynamics of fluid nanodrops
-italic{Sergio Contreras, Alejandro Martínez-Borquez, Carlos Avendaño, Alejandro Gil-Villegas, and George Jackson}
-$^1$División de Ciencias e Ingenierías, Campus León, Universidad de Guanajuato, Loma del Bosque 103, Lomas del Campestre, León 37150, Guanajuato, México
-$^1$Tecnologico de Monterrey, School of Engineering and Sciences, León 37190, Guanajuato, México
-$^1$Department of Chemical Engineering, University of Manchester, Oxford Road, Manchester M13 9PL, UK
-$^1$ Department of Chemical Engineering, Imperial College London, South Kensington Campus, London SW7 2AZ, UK
+Sergio Contreras $^1$, Alejandro Martínez-Borquez $^2$, Carlos Avendaño $^3$, Alejandro Gil-Villegas $^1$, and George Jackson $^4$ 
+
+$^1$*División de Ciencias e Ingenierías, Campus León, Universidad de Guanajuato, Loma del Bosque 103, Lomas del Campestre, León 37150, Guanajuato, México.* 
+$^2$*Tecnologico de Monterrey, School of Engineering and Sciences, León 37190, Guanajuato, México.*
+$^3$*Department of Chemical Engineering, University of Manchester, Oxford Road, Manchester M13 9PL, UK.*
+$^4$*Department of Chemical Engineering, Imperial College London, South Kensington Campus, London SW7 2AZ, UK.*
+
+
+$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$
 ## ABSTRACT
 The focus of our study is an in-depth investigation of the quantum effects associated with the surface tension and other thermodynamic properties of nanoscopic liquid drops. The behaviour of drops of quantum
 Lennard- Jones fluids is investigated with path-integral Monte Carlo simulations, and the test-area method
