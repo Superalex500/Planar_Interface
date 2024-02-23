@@ -2,7 +2,7 @@
 <p> Sergio Contreras $^1$, Alejandro Martínez-Borquez $^2$, Carlos Avendaño $^3$, Alejandro Gil-Villegas $^1$, and George Jackson $^4$ </p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $^1$ *División de Ciencias e Ingenierías, Campus León, Universidad de Guanajuato, Loma del Bosque 103, Lomas del Campestre, León 37150,* 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Guanajuato, México.*
+*Guanajuato, México.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $~^2$ *Tecnologico de Monterrey, School of Engineering and Sciences, León 37190, Guanajuato, México.* 
 
