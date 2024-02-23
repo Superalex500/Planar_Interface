@@ -26,8 +26,12 @@ ethane, methanol, and carbon dioxide, even at ambient conditions. The notable de
 tension has important consequences in reducing the free-energy barrier of a nucleating cluster resulting in an
 enhancement of nucleation kinetics of liquid drops and of bubble formation. This implies that drops would
 form at a much greater rate than is predicted by the classical nucleation theory. </p> 
+DOI: 
+
+## Cite this work
 
 ## Computer Simulation Monte Carlo
+
 
 ![alt text](Planar_MC.jpg)
 
