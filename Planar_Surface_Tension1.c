@@ -7,7 +7,7 @@
 #include<stdlib.h>
 
 
-/*Declaracion de variables y constantes globales*/
+/*global variables and constants*/
 int seed,*pseed;
 #define MBIG 1000000000
 #define MSEED 161803398
