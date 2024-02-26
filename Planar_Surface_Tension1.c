@@ -39,7 +39,7 @@ char Perfil_Den[100], Configuracion_lb[100], Resultados_lb[100], Resultados_Parc
 
 
 
-//Declaracion de Funciones//
+//Functions//
 int comienzo(void);
 void montecarlo(void);
 int condition(int n,int bead,int j);
