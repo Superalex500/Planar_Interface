@@ -117,7 +117,7 @@ int comienzo(void)
 	DBH=1.0;
 	DBH2=DBH*DBH;
 	DBHm=DBH/2.0;
-	/*Aqui� se fija la fase densa*/
+	/*Aqui­ se fija la fase densa*/
 	//RHO=(double)N/(l*l*l);
 	RHO=1.5278;
 	RHO=0.74;
@@ -130,7 +130,7 @@ int comienzo(void)
 	zbl2=zbl/2.0;
 	set_initial_array(load_prev);
 	if(load_prev == 1) {zbl=Longz*l; zbl2=zbl/2.0;}
-	/*Aqui� se fija la longitud del perfil de densidad*/
+	/*Aqui­ se fija la longitud del perfil de densidad*/
 	zbld=3.0*l;        zbld = Longz*l;
 	zbld2=zbld/2.0;
 	nx=(int)(zbld/dx);
@@ -186,7 +186,7 @@ void montecarlo(void)
 				if((stp1%1000==0)&&(j==4))
 					density();
 
-				if(stp1%NSUB==0)//take a configuration each NSUB movements and print on screen
+				if(stp1%NSUB==0) //take a configuration each NSUB movements and print on screen
 				{
 					++cnt2;//counts the number of measurements
 					well_energy_sub=Propagator(0,0);
@@ -204,7 +204,7 @@ void montecarlo(void)
 					a3=(a3_cnt/cnt2-3.0*(a2_cnt/cnt2)*a1+2.0*a1*a1*a1);
 					err=a2/oblate_area;
 
-					a1=a1/(oblate_area);						//the first perturbation terms
+					a1=a1/(oblate_area);			        //the first perturbation terms
 					a2=a2/(-2.0*TEMP*oblate_area);			//the second perturbation terms
 					a3=a3/(6.0*TEMP*TEMP*oblate_area);		//the third perturbation terms
 
@@ -220,8 +220,8 @@ void montecarlo(void)
 					err1=b2/prolate_area;
                   // printf("XX %d\t%lf\t%lf\t%lf\t%lf\t%lf\t%lf\n",cnt2,b1,b2,err1,b2_cnt/((double)cnt2),prolate_area,dif1);
 					b1=b1/(prolate_area);						//the first perturbation terms
-					b2=b2/(-2.0*TEMP*prolate_area);			//the second perturbation terms
-					b3=b3/(6.0*TEMP*TEMP*prolate_area);		//the third perturbation terms
+					b2=b2/(-2.0*TEMP*prolate_area);			                //the second perturbation terms
+					b3=b3/(6.0*TEMP*TEMP*prolate_area);		                //the third perturbation terms
 
 					A_beads=1.0-((double)(bmr)/(double)(stp1-stp));
 					A_neck=1.0-((double)(nmr)/(double)stp);
@@ -240,10 +240,10 @@ void montecarlo(void)
 						printf("%f %d\t%lf\t%lf\t%lf\t%lf\t%lf\t%lf %f %f\n",lb,cnt2,a1,b1,A_beads,DISPL,A_neck,DISPLCM,dif,dif1);
 						
 
-					if((j==0)||(j==2))						//Busca desplazamientos optimos
+					if((j==0)||(j==2))						//optimal displacement
 						i=ajustando(A_beads,A_neck);
 
-					if((j==4)&&(cnt2%20==0))				//Guarda resultados parciales
+					if((j==4)&&(cnt2%20==0))				//Partial REsults
 					{
 						Resultados(0);
 						//save_configuration();
@@ -391,8 +391,8 @@ int ajustando(double bead,double neck)//Esta funcion encuentra los desplazamient
 	rang_i=0.00008;
 	rang_s=0.96;
 
-	des_b=0.33-bead;		//Desviacion respecto de 0.33 en la aceptación
-	des_cm=0.33-neck;		//Desviacion respecto de 0.33 en la aceptación
+	des_b=0.33-bead;		//Desviacion respecto de 0.33 en la aceptaciÃ³n
+	des_cm=0.33-neck;		//Desviacion respecto de 0.33 en la aceptaciÃ³n
 
 	desp_b[ctl]=DISPL;			//Guarda los desplazamientos anteriores
 	desp_cm[ctl]=DISPLCM;		//Guarda los desplazamientos anteriores
@@ -798,7 +798,7 @@ void save_current_configuration(int n)
 void boundary_condition_box(double *xp,double *yp,double *zp, int j)
 {	//It returns the new coordinates according to boundary conditios
 	//Periodic boundary conditios
-	//Válidas para una caja centrada en el origen
+	//VÃ¡lidas para una caja centrada en el origen
 
 	if(j<2)
 	{
@@ -1195,7 +1195,7 @@ double RadioBH_clasico(void)
 /******************************************************/
 
 	h=sigma/(3*n);
-	hx=sigma/n;                          /****Tamaño de paso para la integración**/
+	hx=sigma/n;                          /****TamaÃ±o de paso para la integraciÃ³n**/
 	y+=h*clasico(x,sigma);
 	for(j=1;j<n;++j)
 	{
@@ -1211,7 +1211,7 @@ double RadioBH_clasico(void)
 
 return y; //regresa el valor del radio BH
 }
-/****************Funcion que evalúa el potencial clasico***********/
+/****************Funcion que evalÃºa el potencial clasico***********/
 double clasico(double r,double sigma)
 {
 	double v,f,t;
